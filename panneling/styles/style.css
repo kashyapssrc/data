@@ -32,16 +32,15 @@ body{
   left: 10%;
   height:50vh;
   width: 90%;
-  border-bottom: 1px solid #BFBFBF;
 }
 
 .table{
   position: relative;
-  top: 10%;
-  left: 18%;
-  width:60%;
-  height: 40vh;
-  overflow-y: scroll;
+  top: 3%;
+  left: 1%;
+  width:98%;
+  height: 95%;
+  overflow-y: auto;
   box-shadow: 0px 2px 5px 1px #BFBFBF;
   border-radius: 10px;
 }
@@ -61,19 +60,16 @@ td,th{
 
 .form{
   position: absolute;
-  top: 12%;
-  left: 18%;
+  top: 2%;
+  left: 1%;
   box-shadow: 0px 2px 5px 1px #BFBFBF;
-  width: 60%;
-  height:30vh;
+  width: 98%;
+  height: 95%;
   border-radius: 10px;
-  overflow-y: scroll;
 }
 
 .form-dimensions{
-  position: absolute;
-  left: 10%;
-   display: none;
+  display: none;
 }
 
 .customize-label{
@@ -87,7 +83,7 @@ td,th{
 .textbox-prop{
   position: relative;
   top: 5vh;
-  left: 60%;
+  left: 10%;
   display: block;
   border: none;
   border-bottom: 1px solid #BFBFBF;
@@ -108,4 +104,5 @@ td,th{
   width: 10%;
   background-color: #1A73E8;
   color: #FFFFFF;
+  outline: none;
 }
