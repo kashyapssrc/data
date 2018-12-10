@@ -1,0 +1,85 @@
+[
+    {"id":1,
+     "firstName":"Rebecca",
+     "lastName":"Pancras",
+     "email":"rebecca@gmail.com",
+     "birthDate":"30-11-1997"
+   },
+
+   {"id":2,
+     "firstName":"abc",
+     "lastName":"def",
+     "email":"abc@gmail.com",
+     "birthDate":"30-11-1997"
+   },
+   
+   {"id":3,
+   "firstName":"Mixi",
+   "lastName":"Henry",
+   "email":"mixi@gmail.com",
+   "birthDate":"20-11-1972"
+   },
+   
+   {"id":4,
+     "firstName":"Rebecca",
+     "lastName":"Pancras",
+     "email":"rebecca@gmail.com",
+     "birthDate":"30-11-1997"
+   },
+
+   {"id":5,
+     "firstName":"abc",
+     "lastName":"def",
+     "email":"abc@gmail.com",
+     "birthDate":"30-11-1997"
+   },
+   
+   {"id":6,
+   "firstName":"Mixi",
+   "lastName":"Henry",
+   "email":"mixi@gmail.com",
+   "birthDate":"20-11-1972"
+   },
+   {"id":1,
+     "firstName":"Rebecca",
+     "lastName":"Pancras",
+     "email":"rebecca@gmail.com",
+     "birthDate":"30-11-1997"
+   },
+
+   {"id":2,
+     "firstName":"abc",
+     "lastName":"def",
+     "email":"abc@gmail.com",
+     "birthDate":"30-11-1997"
+   },
+   
+   {"id":3,
+   "firstName":"Mixi",
+   "lastName":"Henry",
+   "email":"mixi@gmail.com",
+   "birthDate":"20-11-1972"
+   },
+   
+   {"id":4,
+     "firstName":"Rebecca",
+     "lastName":"Pancras",
+     "email":"rebecca@gmail.com",
+     "birthDate":"30-11-1997"
+   },
+
+   {"id":5,
+     "firstName":"abc",
+     "lastName":"def",
+     "email":"abc@gmail.com",
+     "birthDate":"30-11-1997"
+   },
+   
+   {"id":6,
+   "firstName":"Mixi",
+   "lastName":"Henry",
+   "email":"mixi@gmail.com",
+   "birthDate":"20-11-1972"
+   }
+]
+

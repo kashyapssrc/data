@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WebApp</title>
+    <link rel="stylesheet" href="styles/webapp.css" />
+  </head>
+  <body>
+    <header id="header" 
+            class="top"></header>
+    <div id="sidePanel"
+         class="panel float">
+      <div id="person"
+           class="ui-panel float">
+        <button id="personBtn" onClick="display('person');">Person</button>
+      </div>
+      <div id="address"
+           class="ui-panel float">
+        <button id="addressBtn" onClick="display('address');">Address</button>
+      </div>
+    </div>
+    <div id = "container"
+         class="front-page-container float">
+      <button id="addBtn" 
+              class="hidden top-button"
+              onClick="display();">ADD</button>
+      <div id="frontPage" 
+          class="person-detail float"></div>
+      <div id="formPage"
+          class="form-div">
+        <form id="personForm" class="form-display">
+          <!-- <input id="close-btn" -->
+                <!-- class="top-right-img" -->
+                <!-- type="image"  -->
+                <!-- src="assets/cllose.png"  -->
+                <!-- alt="close" /> -->
+          <br/>
+          <label id="topLabel">Id : </label>
+          <input type="text"
+                id="personId"
+                class="textbox" />
+          <br/>
+          <label>FirstName : </label>
+          <input type="text"
+                id="firstName"
+                class="textbox" />
+          <br/>
+          <label>LastName : </label>
+          <input type="text"
+                id="lastName"
+                class="textbox" />
+          <br/>
+          <label>Email-Id : </label>
+          <input type="text"
+                id="email"
+                class="textbox" />
+          <br/>
+          <label>Birth date : </label>
+          <input type="text"
+                id="birthDate"
+                class="textbox" />
+          <br/>
+          <input type="submit"
+                 id="submit"
+                 class="hidden"
+                 value="save" />
+          <br/>
+          <input type="button"
+                 id="create"
+                 class="hidden"
+                 value="create"
+                 onClick="createPerson();"/>
+        </form>
+        <form id="addressForm" class="address-form-display">
+          <!-- <input id="close-btn" -->
+                <!-- class="top-right-img" -->
+                <!-- type="image"  -->
+                <!-- src="assets/cllose.png"  -->
+                <!-- alt="close" /> -->
+          <br/>
+          <label id="top-label">Id : </label>
+          <input type="text"
+                id="addressId"
+                class="textbox" />
+          <br/>
+          <label>Street : </label>
+          <input type="text"
+                id="street"
+                class="textbox" />
+          <br/>
+          <label>City : </label>
+          <input type="text"
+                id="city"
+                class="textbox" />
+          <br/>
+          <label>Postal Code : </label>
+          <input type="text"
+                id="postalCode"
+                class="textbox" />
+          <br/>
+          <input type="submit"
+                 id="addressSubmission"
+                 class="hidden"
+                 value="save" />
+          <br/>
+          <input type="button"
+                 id="addressCreation"
+                 class="hidden"
+                 value="Create"
+                 onClick="createPerson();"/>
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript" src="scripts/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>Yellow pages</title>
+    <link rel="stylesheet" href="styles/style.css"/>
+  </head>
+  <body>
+    <script src="scripts/populateTable.js"></script>
+    <div class="menu">
+      <h4 class="customize-menu-header" onclick="addressDetails(), displayAddressForm()" id="address-header">Address</h4>
+      <h4 class="customize-menu-header" onclick="personDetails(), displayPersonForm()" id="person-header">Person</h4>
+    </div>
+    <div class="table-container">
+      <div class="table">
+        <table class="info-table" id="info-table">
+        </table>
+      </div>
+    </div>
+    <div class="form-container">
+      <div class="form">
+        <form class="form-dimensions" id="address-form">
+          <label class="customize-label">Street : </label>
+          <input class="textbox-prop" id="street" "type="text" placeholder="street"/>
+          <label class="customize-label">City : </label>
+          <input class="textbox-prop" id="city" type="text" placeholder="city"/>
+          <label class="customize-label">Postal code : </label>
+          <input class="textbox-prop" id="code" type="text" placeholder="postal code"/>
+        </form>
+        <form class="form-dimensions" id="person-form">
+          <label class="customize-label">First Name : </label>
+          <input class="textbox-prop" id="firstname" "type="text" placeholder="First name"/>
+          <label class="customize-label">Last Name : </label>
+          <input class="textbox-prop" id="lastname" type="text" placeholder="Last name"/>
+          <label class="customize-label">e-mail : </label>
+          <input class="textbox-prop" id="email" type="text" placeholder="someone@example.com"/>
+          <label class="customize-label">Birth-Date : </label>
+          <input class="textbox-prop" id="dob" type="text" placeholder="dd-mm-yyyy"/>
+        </form>
+      </div>
+      <button class="submit" "type="button">save</button> 
+    </div>
+  </body>
+</html>
